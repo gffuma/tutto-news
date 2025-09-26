@@ -1,0 +1,1 @@
+#mappa-comuni .c{transition-duration:.3s;transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-timing-function:cubic-bezier(0,0,.2,1)}#mappa-comuni.is-canton-select .c{opacity:.3}#mappa-comuni.is-canton-select .c.is-this-canton-selected{opacity:1}

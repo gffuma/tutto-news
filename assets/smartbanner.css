@@ -1,0 +1,137 @@
+/*!
+ * smartbanner.js v1.24.1 <https://github.com/ain/smartbanner.js#readme>
+ * Copyright © 2024 Ain Tohvri, contributors. Licensed under GPL-3.0.
+ */
+.smartbanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 84px;
+  background: #af001e;
+  font-family: Helvetica, sans, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 10px;
+}
+
+.smartbanner__exit {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.smartbanner__exit::before,
+.smartbanner__exit::after {
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #ffffff;
+  content: " ";
+}
+.smartbanner__exit::before {
+  transform: rotate(45deg);
+}
+.smartbanner__exit::after {
+  transform: rotate(-45deg);
+}
+
+.smartbanner__icon {
+  width: 58px;
+  height: 58px;
+  min-width: 58px;
+  minheight: 58px;
+  border-radius: 10px;
+  border: 0.1px solid #ffffff40;
+  background-size: contain;
+}
+.smartbanner__info {
+  display: flex;
+  overflow-y: hidden;
+  width: 60%;
+  align-items: center;
+  color: #fff;
+}
+.smartbanner__info__title {
+  font-size: 14px;
+}
+.smartbanner__info__author,
+.smartbanner__info__price {
+  font-size: 12px;
+  color: #ffffff70;
+}
+.smartbanner__button {
+  margin-left: auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20%;
+  height: 28px;
+  border-radius: 15px;
+  background: #f3f3f3;
+  color: #1474fc;
+  font-size: 15px;
+  font-weight: 600;
+}
+.smartbanner__button__label {
+  text-align: center;
+  color: #af001e;
+}
+/*
+.smartbanner.smartbanner--android .smartbanner__exit:active,
+.smartbanner.smartbanner--android .smartbanner__exit:hover {
+  color: #eee;
+}
+.smartbanner.smartbanner--android .smartbanner__icon {
+  background-color: transparent;
+  box-shadow: none;
+}
+.smartbanner.smartbanner--android .smartbanner__info {
+  color: #ccc;
+  text-shadow: 0 1px 2px #000;
+}
+.smartbanner.smartbanner--android .smartbanner__info__title {
+  color: #fff;
+  font-weight: bold;
+}
+.smartbanner.smartbanner--android .smartbanner__button {
+  top: 30px;
+  right: 20px;
+  padding: 0;
+  min-width: 12%;
+  border-radius: 0;
+  background: none;
+  box-shadow: 0 0 0 1px #333, 0 0 0 2px #dddcdc;
+  color: #d1d1d1;
+  font-size: 14px;
+  font-weight: bold;
+}
+.smartbanner.smartbanner--android .smartbanner__button:active,
+.smartbanner.smartbanner--android .smartbanner__button:hover {
+  background: none;
+}
+.smartbanner.smartbanner--android .smartbanner__button__label {
+  display: block;
+  padding: 0 10px;
+  background: #42b6c9;
+  background: linear-gradient(to bottom, #42b6c9, #39a9bb);
+  box-shadow: none;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: none;
+  text-transform: none;
+}
+.smartbanner.smartbanner--android .smartbanner__button__label:active,
+.smartbanner.smartbanner--android .smartbanner__button__label:hover {
+  background: #2ac7e1;
+} */
